@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D50FCC3A26B400CE00C6701B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50FCC3926B400CE00C6701B /* UIColor+Extension.swift */; };
+		D50FCC3E26B4095600C6701B /* BannerScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50FCC3D26B4095600C6701B /* BannerScrollViewController.swift */; };
 		D5DE97FC26B39219003D2E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE97FB26B39219003D2E2A /* AppDelegate.swift */; };
 		D5DE97FE26B39219003D2E2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE97FD26B39219003D2E2A /* SceneDelegate.swift */; };
 		D5DE980026B39219003D2E2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE97FF26B39219003D2E2A /* ViewController.swift */; };
 		D5DE980326B39219003D2E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DE980126B39219003D2E2A /* Main.storyboard */; };
 		D5DE980526B3921F003D2E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DE980426B3921F003D2E2A /* Assets.xcassets */; };
 		D5DE980826B3921F003D2E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DE980626B3921F003D2E2A /* LaunchScreen.storyboard */; };
-		D5DE981526B39256003D2E2A /* BannerScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE981426B39256003D2E2A /* BannerScrollViewController.swift */; };
 		D5DE981826B3B54E003D2E2A /* BannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5DE981726B3B54E003D2E2A /* BannerView.xib */; };
 		D5DE981B26B3B55A003D2E2A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE981A26B3B55A003D2E2A /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D50FCC3926B400CE00C6701B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D50FCC3D26B4095600C6701B /* BannerScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerScrollViewController.swift; sourceTree = "<group>"; };
 		D5DE97F826B39219003D2E2A /* BannerViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DE97FB26B39219003D2E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5DE97FD26B39219003D2E2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		D5DE980426B3921F003D2E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5DE980726B3921F003D2E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5DE980926B3921F003D2E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5DE981426B39256003D2E2A /* BannerScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerScrollViewController.swift; sourceTree = "<group>"; };
 		D5DE981726B3B54E003D2E2A /* BannerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerView.xib; sourceTree = "<group>"; };
 		D5DE981A26B3B55A003D2E2A /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +68,7 @@
 				D5DE97FD26B39219003D2E2A /* SceneDelegate.swift */,
 				D5DE97FF26B39219003D2E2A /* ViewController.swift */,
 				D5DE980126B39219003D2E2A /* Main.storyboard */,
-				D5DE981426B39256003D2E2A /* BannerScrollViewController.swift */,
+				D50FCC3D26B4095600C6701B /* BannerScrollViewController.swift */,
 				D5DE981726B3B54E003D2E2A /* BannerView.xib */,
 				D5DE981A26B3B55A003D2E2A /* BannerView.swift */,
 				D50FCC3926B400CE00C6701B /* UIColor+Extension.swift */,
@@ -150,11 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50FCC3E26B4095600C6701B /* BannerScrollViewController.swift in Sources */,
 				D5DE981B26B3B55A003D2E2A /* BannerView.swift in Sources */,
 				D5DE980026B39219003D2E2A /* ViewController.swift in Sources */,
 				D5DE97FC26B39219003D2E2A /* AppDelegate.swift in Sources */,
 				D50FCC3A26B400CE00C6701B /* UIColor+Extension.swift in Sources */,
-				D5DE981526B39256003D2E2A /* BannerScrollViewController.swift in Sources */,
 				D5DE97FE26B39219003D2E2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
